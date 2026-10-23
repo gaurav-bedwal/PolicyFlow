@@ -14,7 +14,7 @@
             <directory>tests/Feature</directory>
         </testsuite>
     </testsuites>
-    <source>
+    <source ignoreIndirectDeprecations="true">
         <include>
             <directory>app</directory>
         </include>
