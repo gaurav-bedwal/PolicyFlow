@@ -46,6 +46,7 @@ enum PolicyStatus: string
             self::VALIDATED => in_array($target, [
                 self::SUBMITTED,
                 self::FAILED,
+                self::NEEDS_RECONCILIATION,
             ], true),
 
             self::SUBMITTED => in_array($target, [
